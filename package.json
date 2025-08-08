@@ -1,0 +1,20 @@
+{
+  "name": "slot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+  "start": "node dist/main.js",
+  "simulate": "node dist/simulator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
